@@ -1,0 +1,123 @@
+body{
+    background-image: url('hotpot.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right-page{
+    background-color:white;
+    float: left;
+    width: 570px;
+    height: 100%;
+    margin-left: 591.5px;
+    margin-top: 80px;
+    padding-top: 3%;
+    padding-left: 3%;
+    border-top-left-radius: 30px;
+    border: solid;
+    border-width: 10px;
+    border-right: none;
+    border-bottom: none;
+    border-color: rgb(252, 159, 148);
+}
+
+.form{
+    float: left;
+    padding-left: 10px;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.form input[type=text]{
+    width: 500px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form input[type=password]{
+    width: 500px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.form select[name=bd-day]{
+    width: 80px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+}
+
+.form select[name=bd-month]{
+    width: 150px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+}
+
+.form select[name=bd-year]{
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+}
+
+.form select[name=gender]{
+    width: 100px;
+    height: 30px;
+    border: solid;
+    border-color: rgb(225, 224, 224);
+    border-radius: 5px;
+}
+
+.form input[type=button]{
+    width: 530px;
+    height: 50px;
+    border: solid;
+    border-radius: 30px;
+    background-color: rgb(252, 159, 148);
+    font-family: fantasy;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+h1{
+    float: left;
+}
+
+h2{
+    float: right;
+    padding-right: 3%;
+}
+
+h3{
+    float: left;
+    font-size: 30px;
+}
+
+.bd-text{
+    font-size: 20px;
+}
+
+.login-link{
+    text-decoration: none;
+    color: rgb(248, 126, 113)   ;
+}
+
+:hover.login-link{
+    text-decoration: underline;
+}
